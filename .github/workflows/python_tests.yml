@@ -19,9 +19,7 @@ jobs:
           python-version: 3.8
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt  # Replace with your dependencies
+        run: pip install -r requirements.txt
 
       - name: Run tests
-        run: |
-          pytest ex1_test.py  # Replace with your test file
+        run: pytest ex1_test.py
